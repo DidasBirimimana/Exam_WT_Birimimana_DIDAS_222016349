@@ -1,1 +1,20 @@
 # Exam_WT_Birimimana_DIDAS_222016349
+USER  credentials(username:DIDAS and password:didas07)
+
+A classified ads platform serves as a marketplace where users can buy and sell a wide range of items and services, connect with others in their community, and facilitate transactions in a convenient and efficient manner.
+
+                      EXPLANATION
+
+User Registration: Users typically start by creating an account on the platform. This may involve providing some personal information and creating a username/password.
+
+Ad Posting: Once registered and logged in, users can create and post ads. They usually provide details such as the title, description, category (e.g., electronics, real estate, jobs), price, location, and contact information. They may also upload images or other media to accompany their ads.
+
+Search and Browse: Other users can then browse through the posted ads. They can search for specific items using keywords or filters such as category, location, price range, etc. The platform may also provide recommendations or suggest relevant ads based on user preferences.
+
+Contact and Communication: If a user is interested in an ad, they can usually contact the seller directly through the platform. This may involve sending a message or making a phone call, depending on the contact information provided by the seller.
+
+Transaction Facilitation: While some platforms simply facilitate communication between buyers and sellers, others may offer additional features to facilitate transactions. This could include integrated payment systems, escrow services, or in-person meetup arrangements.
+
+Feedback and Ratings: After a transaction is completed, users may have the option to leave feedback or ratings for each other. This helps build trust within the community and provides valuable information for future users.
+
+Moderation and Safety: To ensure a safe and positive experience for users, the platform may implement moderation measures such as user verification, content review, and anti-spam measures. They may also provide guidelines and policies regarding acceptable conduct and content.
