@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>about Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" title="style 1" media="screen, tv, projection, handheld, print">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        /* Normal link */
+        .nav-link {
+            padding: 10px;
+            color: white;
+            background-color: sandybrown;
+            text-decoration: none;
+            margin-right: 30px;
+            text-align: center;
+        }
+
+        /* Visited link */
+        .nav-link:visited {
+            color: purple;
+        }
+
+        /* Unvisited link */
+        .nav-link:link {
+            color: brown; /* Changed to lowercase */
+        }
+
+        /* Hover effect */
+        .nav-link:hover {
+            background-color:skyblue;
+        }
+
+        /* Active link */
+        .nav-link:active {
+            background-color: red;
+        }
+
+        /* Extend margin left for search button */
+        button.btn {
+            margin-left: 1px; /* Adjust this value as needed */
+            margin-top: 4px;
+        }
+
+        /* Extend margin left for search button */
+        input.form-control {
+            margin-left: 1200px; /* Adjust this value as needed */
+            padding: 8px;
+        }
+        /* Updated CSS for social media links without background color */
+        .social-link {
+            display: inline-block;
+            padding: 10px;
+            margin-right: 5px;
+            text-align: center;
+        }
+        /* Header */
+header {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+
+        /* Extend dropdown menu item styling */
+.dropdown-menu .dropdown-item {
+    background-color:skyblue;
+    color: white;
+}
+
+/* Hover effect for dropdown menu items */
+.dropdown-menu .dropdown-item:hover {
+    background-color: brown; /* Change background color on hover */
+    color: white;
+}
+
+    </style>
+</head>
+<body style="background-color: skyblue;">
+
+
+<header>
+    <!-- Search form -->
+    <form class="d-flex" role="search" action="search.php" method="GET">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+    <!-- Logo and navigation links -->
+    <ul style="list-style-type: none; padding: 0;">
+        <li style="display: inline; margin-right: 10px;">
+           <a href="home.html"> 
+            <img src="./Images/th.jpeg" width="100" height="70" alt="Logo"> </a>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-auto">
+                <div class="box">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">CONTACT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="services.html">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false">FORMS</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="ads.php">ADS</a></li>
+                                            <li><a class="dropdown-item" href="categories.php">Categories</a></li>
+                                            <li><a class="dropdown-item" href="favorities.php">Favorities</a></li>
+                                            <li><a class="dropdown-item" href="feedback.php">Feedback</a></li>
+                                            <li><a class="dropdown-item" href="images.php">Images</a></li>
+                                            <li><a class="dropdown-item" href="instructors.php">Instructors</a></li>
+                                            <li><a class="dropdown-item" href="listings.php">Listings</a></li>
+                                            <li><a class="dropdown-item" href="payments.php">payments</a></li>
+                                            <li><a class="dropdown-item" href="messages.php">Messages</a></li>
+                                            <li><a class="dropdown-item" href="reports.php">reports</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">VIEW-TABLES</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="view_ads.php">Ads table</a></li>
+                                            <li><a class="dropdown-item" href="view_categories.php">Categories table</a></li>
+                                            <li><a class="dropdown-item" href="view_favorities.php">Favorities table</a></li>
+                                            <li><a class="dropdown-item" href="view_feedback.php">Feedback table</a></li>
+                                            <li><a class="dropdown-item" href="view_images.php">Images table</a></li>
+                                            <li><a class="dropdown-item" href="view_instructors.php">Instructors table</a></li>
+                                            <li><a class="dropdown-item" href="view_listings.php">Listings table</a></li>
+                                            <li><a class="dropdown-item" href="view_messages.php">Messages table</a></li>
+                                            <li><a class="dropdown-item" href="view_payments.php">Payments table</a></li>
+                                            <li><a class="dropdown-item" href="view_reports.php">Reports table</a></li>
+                                        </ul>
+                                    </li>
+                                    </li>
+                                    <li class="dropdown" style="display: inline; margin-right: 10px;">
+                                        <a href="#" class="nav-link dropdown-toggle" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">Settings</a>
+                                        <div class="dropdown-contents">
+                                            <!-- Links inside the dropdown menu -->
+                                            <a class="dropdown-item" href="#">Profile</a>
+                                            <a class="dropdown-item" href="login.html">Change Other Account</a>
+                                            <a class="dropdown-item" href="logout.php">Logout</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+
+<center>
+<h2 style="color: white;"><bold><u> OUR MISSION TO SYSTEM</u></bold></h2>
+</center>
+
+<p><h3>
+ The mission of a classified ads platform project could be something like:
+
+"To provide a reliable, user-friendly, and secure platform that connects individuals and businesses, enabling them to buy, sell, or exchange goods and services within their local communities or globally. Our mission is to facilitate seamless transactions, foster trust between users, and empower economic opportunities by leveraging innovative technology and robust features."</h3></p>
+
+<p><h3 style="color: yellow;"><i>Efficient a classified ads platform project:</i></h3></p>
+ <p><h4>The DMS aims to efficiently organize legal documents, including contracts, agreements, case files, court filings, and other legal records, to ensure easy retrieval and access.</h4></p><br>
+
+<p><h3 style="color: yellow;"><i>User Experience (UX) Design: Design an intuitive user interface that makes it easy for users to navigate, search, and post ads. Keep the design clean and clutter-free.:</i></h3></p>
+ <p><h4>User Experience (UX) Design: Design an intuitive user interface that makes it easy for users to navigate, search, and post ads. Keep the design clean and clutter-free.</h4></p><br>
+
+ <p><h3 style="color: yellow;"><i>Enhanced Security and Access Control: </i></h3></p>
+ <p><h4> The DMS prioritizes data security and confidentiality, providing robust access controls and encryption mechanisms to protect sensitive legal information from unauthorized access or breaches.</h4></p><br>
+
+ <p><h3 style="color: yellow;"><i>Streamlined Collaboration:</i></h3></p>
+ <p><h4>Facilitating seamless collaboration among legal teams, the DMS enables real-time sharing, editing, and commenting on documents while maintaining version history and tracking changes.</h4></p><br>
+
+ <p><h3 style="color: yellow;"><i>Integration with Legal Systems:</i></h3></p>
+ <p><h4>Fast Loading Speed: Optimize your platform for speed. Users should be able to access pages quickly, whether they're browsing listings or posting ads. Minimize unnecessary scripts, compress images, and utilize caching techniques.
+</h4></p><br>
+
+ <p><h3 style="color: yellow;"><i>Improved Client Service:</i></h3></p>
+ <p><h4>By ensuring quick and accurate access to relevant documents and information, the DMS enhances client service delivery, responsiveness, and satisfaction.</h4></p><br>
+ 
+<center>
+<h2 style="color: white;"><bold><u> WHAT DO WE DO</u></bold></h2>
+</center>
+
+<p><h3 style="color: black;">The "What do we do?" aspect of classified_ads_platform</i></h4></p><br>
+
+<p><h3>In summary, Overall, a classified ads platform serves as a convenient and efficient marketplace for buying, selling, or trading various goods and services, connecting users with relevant offers and opportunities.</h3></p>
+</section>
+
+<footer>
+  <marquee behavior='alternate'>
+        <b><h2>UR Huye Camps CBE BIT &copy, <u>Designed by</u>: Didas Birimimana</h2></b>
+    </marquee>
+<center><b style="color: white;"><i>&copy Copyright 2024 All Rights Reserved</i></b></center>
+</footer>
+
+
+</body>
+</html>
